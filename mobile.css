@@ -1,0 +1,196 @@
+@media only screen and (max-width: 600px) {
+.main {
+    padding: 30px 10px;
+}
+.overview-header .dropdown {
+    min-width: 0;
+    width: 100%;
+    margin-left: 100%;
+}
+.open>.dropdown-menu {
+    display: table;
+}
+.tabs--big {
+    margin: 28px auto;
+    font-size: 14px;
+    border-radius: 0px;
+}
+.tabs {
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #b8b8b8;
+    border: 1px solid rgba(0,8,14,0.08);
+    border-radius: 0px;
+    background: white;
+}
+.tabsSidebar-tabs {
+    z-index: 300;
+}
+.tabsSidebar-tabsSpacer {
+    padding-right: 0px !important;
+}
+.dashboard .tabs--big {
+    width: 80%;
+    margin-top: 40px;
+    height: auto;
+}
+.tabs--big .tab {
+    height: auto;
+    padding: 10px 23px 9px;
+    /* height: auto; */
+    /* padding: 10px 23px 9px; */
+}
+#app {
+    display: flex;
+    flex: 1;
+    min-width: auto;
+    overflow: auto;
+}
+.user-menu {
+    padding: 0 5px;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    flex-shrink: 0;
+    display: inline;
+}
+.user-menu .list-button {
+    height: 60px;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+}
+.menu-item-name {
+    flex: 1;
+    margin-top: 2px;
+    display: none;
+}
+.navigation {
+    width: 50px;
+    background: #25262d;
+    position: relative;
+}
+.navigation:hover, .navigation:active{
+    width: 220px;
+}
+.navigation:hover .menu-item-name , .navigation:active .menu-item-name {
+    display: block;
+    padding-left: 20px;
+}
+.navigation:hover .search input[type="search"], .navigation:active .search input[type="search"] {
+    width: 200px;
+}
+.three-columns > .column {
+    width: 100%;
+}
+.menu-item {
+    padding: 0 10px;
+}
+.menu-item-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 0px;
+    fill: #585f65;
+}
+.search {
+    padding: 10px 5px 4px 4px;
+    display: block;
+}
+.search input[type="search"] {
+    padding: 5px 10px 5px 33px;
+    height: 30px;
+    color: #ECECEC;
+    background: #31373b;
+    line-height: 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    position: absolute;
+    z-index: 300;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    float: left;
+}
+.search .logo {
+    position: relative;
+    margin: 40px 0px 0px -10px;
+    transition: 240ms;
+    padding-left: 10px;
+}
+.search .icon-magnifier {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    left: 10px;
+    z-index: 2;
+    z-index: 301;
+    opacity: .5;
+    fill: white;
+    transition: .1s 0s;
+}
+.tasks.tasks-navigation.ui-sortable
+{
+    display: block;
+}
+.menu-item-name
+{
+    display: none;
+}
+.tab-content.stat-widgets.three-columns
+{
+    /* flex-wrap: unset; */
+    /* width: 100%; */
+}
+.newTicket
+{
+    padding: 0;
+}
+.ticketZoom-controls {
+    margin-right: 0px;
+}
+.profile {
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+    flex: 1;
+}
+.profile .frequency {
+    display: none;
+}
+.profile-action .dropdown-toggle {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 8px;
+    padding: 0px 10px 10px;
+}
+.profile-action {
+    margin-right: 0px;
+    margin-top: 40px;
+}
+.profile-section {
+    padding: 20px 10px;
+}
+.profile-ticketLists {
+    display: inline;
+}
+.article-content {
+    padding: 0px 45px 0px 0px;
+}
+.popover {
+    width: 270px;
+}
+.tabsSidebar.tabsSidebar--attributeBarSpacer {
+    z-index: 5;
+}
+.NavBarAdmin.sidebar, .NavBarProfile.sidebar {
+    width: 165px;
+}
+
+}
